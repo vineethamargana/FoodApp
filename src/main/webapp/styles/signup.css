@@ -1,0 +1,60 @@
+/* styles/signup.css */
+
+body {
+    background-color: #2E073F; /* Dark violet background */
+    color: #EBD3F8; /* Light lavender text */
+     font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #AD49E1; /* Light purple */
+    margin-top: 20px;
+}
+
+center {
+    margin-top: 50px;
+}
+
+table {
+    background-color: #2E073F; /* Dark violet background */
+    color: #EBD3F8; /* Light lavender text */
+    border-collapse: collapse;
+    width: 50%;
+    font-size: 18px;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    padding: 8px;
+    width: 100%;
+    border: 2px solid #AD49E1; /* Purple border */
+    border-radius: 5px;
+    background-color: #7A1CAC; /* Dark purple input background */
+    color: #EBD3F8; /* Light lavender text */
+}
+
+input[type="submit"] {
+    background-color: #AD49E1; /* Light purple */
+    color: #2E073F; /* Dark violet text */
+    font-family: 'Times New Roman', serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #7A1CAC; /* Dark purple on hover */
+}
+
+button, input[type="submit"] {
+    font-family: 'Times New Roman', serif;
+}

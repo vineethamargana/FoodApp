@@ -1,0 +1,98 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #D6B4F0; /* Darker violet background */
+}
+
+/* Header styling */
+header {
+    background-color: #2E073F;
+    color: #EBD3F8;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation bar styling */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7A1CAC;
+    padding: 10px 20px;
+}
+
+.nav-left a {
+    color: #EBD3F8;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right span {
+    margin-right: 10px;
+    color: #EBD3F8;
+}
+
+.nav-right select {
+    padding: 5px;
+    background-color: #AD49E1;
+    color: #2E073F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-right a {
+    color: #EBD3F8;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Featured Restaurants section */
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.restaurant-card {
+    background-color: #EBD3F8;
+    border: 1px solid #7A1CAC;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.restaurant-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 20px;
+    color: #2E073F;
+    text-align: center;
+}
+
+/* Additional styling */
+p {
+    color: #2E073F;
+}

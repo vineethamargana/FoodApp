@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* styles/success.css */
+
+body {
+    background-color: #2E073F; /* Dark violet */
+    color: #EBD3F8; /* Light lavender */
+    font-family: 'Times New Roman', serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}

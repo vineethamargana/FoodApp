@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #2E073F; /* Dark violet */
+    color: #EBD3F8; /* Light lavender */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #AD49E1; /* Light purple */
+}
+
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cart-item {
+    background-color: #7A1CAC; /* Dark purple */
+    color: #EBD3F8; /* Light lavender */
+    border: 1px solid #AD49E1; /* Light purple */
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 220px;
+    box-sizing: border-box;
+}
+
+.inline-form {
+    display: inline;
+}
+
+.btn {
+    background-color: #AD49E1; /* Light purple */
+    color: #2E073F; /* Dark violet */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #7A1CAC; /* Dark purple */
+}
+
+.add-items-btn {
+    background-color: #7A1CAC; /* Dark purple */
+    color: #EBD3F8; /* Light lavender */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.cart-actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cart-actions form {
+    display: inline;
+}
+
+.cart-actions a {
+    display: inline-block;
+    text-align: center;
+    background-color: #7A1CAC; /* Dark purple */
+    color: #EBD3F8; /* Light lavender */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.cart-actions a:hover {
+    background-color: #EBD3F8; /* Light lavender */
+    color: #7A1CAC; /* Dark purple */
+}
